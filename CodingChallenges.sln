@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges", "CodingChallenges\CodingChallenges.csproj", "{969CB091-E243-4C92-8083-A8539C7B795C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{969CB091-E243-4C92-8083-A8539C7B795C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{969CB091-E243-4C92-8083-A8539C7B795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{969CB091-E243-4C92-8083-A8539C7B795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{969CB091-E243-4C92-8083-A8539C7B795C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
