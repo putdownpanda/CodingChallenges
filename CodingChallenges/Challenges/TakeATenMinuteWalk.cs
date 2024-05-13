@@ -10,10 +10,6 @@ public class TakeATenMinuteWalk
      * you exactly ten minutes (you don't want to be early or late!) and will, of course, return you to your starting point.
      * Return false otherwise.
      */
-    public static bool AutoTest()
-    {
-        return IsValidWalk(new []{"n","s","n","s","n","s","n","s","n","s"});
-    }
 
     public static bool IsValidWalk(string[] walk)
     {

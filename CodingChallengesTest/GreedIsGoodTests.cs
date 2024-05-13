@@ -16,7 +16,8 @@ public class GreedIsGoodTests
     
     [Theory]
     [InlineData(new int[] { 2, 2, 4, 6, 2 },200)]
-    [InlineData(new int[] { 4, 4, 3, 2, 4 },400)]
+    [InlineData(new int[] { 4, 4, 4, 4, 4 },400)]
+    [InlineData(new int[] { 3, 3, 3, 3, 3 },300)]
     [InlineData(new int[] { 1, 4, 1, 2, 1 },1000)]
     public void ShouldScoreBecause3s(int[] testArray,int expectedScore)
     {

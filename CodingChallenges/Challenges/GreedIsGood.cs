@@ -86,7 +86,8 @@ Example scoring
 
                     //deal with if there are more then 3 of the same number
                     if (scoreArray[i].Count > 3)
-                        score += _diceScoreValues[i + 1] * (scoreArray[i].Count - 3);
+                        if(_diceScoreValues.ContainsKey(i+1))
+                            score += _diceScoreValues[i + 1] * (scoreArray[i].Count - 3);
 
                 }
                 else if (scoreArray[i].Count > 0 && _diceScoreValues.ContainsKey(i + 1))

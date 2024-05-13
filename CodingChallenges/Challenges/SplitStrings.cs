@@ -6,16 +6,6 @@ public class SplitStrings
     /*Complete the solution so that it splits the string into pairs of two characters.
      If the string contains an odd number of characters then it should replace the missing second character of the final pair with an underscore ('_').
      */
-    public static bool AutoTest()
-    {
-        if (SplitTheStrings("abc").SequenceEqual(new string[] { "ab", "c_" }) &&
-            SplitTheStrings("abcdef").SequenceEqual(new string[] { "ab", "cd", "ef" }))
-        {
-            return true;
-        }
-        else
-            return false;
-    }
 
     public static string[] SplitTheStrings(string str)
     {
