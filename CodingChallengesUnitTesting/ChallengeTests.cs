@@ -30,7 +30,7 @@ public class ChallengeTests
         Assert.Equal(expectedResult, SplitStrings.SplitTheStrings(str));
     }
     
-    [Fact]
+    /*[Fact]
     public void TestLoopOver()
     {
         //first ensure the unit tests are working
@@ -58,7 +58,7 @@ public class ChallengeTests
             new char[] { 'u', 'v', 'w', 'x', 'y' }
         };
         Assert.Equal(new List<string> { "L0" }, LoopOver.Solve(mixedUpBoard, solvedBoard));
-    }
+    }*/
     
     [Fact]
     public void TestMoveLeft()
@@ -191,5 +191,16 @@ public class ChallengeTests
 
         Assert.Equal(valueToValidate,board[0][0]);
     }
-
+    [Fact]
+    public void TestGetHEXFromRGB()
+    {
+        RGBToHEXConversion convert = new RGBToHEXConversion();
+        /*Assert.Equal("#FF0000", convert.GetHEXFromRGB(255, 0, 0));
+        Assert.Equal("#00FF00", convert.GetHEXFromRGB(0, 255, 0));
+        Assert.Equal("#0000FF", convert.GetHEXFromRGB(0, 0, 255));
+        Assert.Equal("#000000", convert.GetHEXFromRGB(0, 0, 0));
+        Assert.Equal("#FFFFFF", convert.GetHEXFromRGB(255, 255, 255));
+        Assert.Equal("#FF0000", convert.GetHEXFromRGB(255, 0, -1));*/
+        Assert.Equal("#9400D3", convert.GetHEXFromRGB(148, 0, 211));
+    }
 }

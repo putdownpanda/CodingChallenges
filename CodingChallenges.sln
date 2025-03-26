@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallenges", "CodingChallenges\CodingChallenges.csproj", "{969CB091-E243-4C92-8083-A8539C7B795C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallengesTest", "CodingChallengesTest\CodingChallengesTest.csproj", "{6D855E21-AA9D-4C5D-9D8C-B808D42779AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingChallengesTest", "CodingChallengesUnitTesting\CodingChallengesUnitTesting.csproj", "{6D855E21-AA9D-4C5D-9D8C-B808D42779AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -8,10 +8,6 @@ public class HighestAndLowest
     There will always be at least one number in the input string.
     Output string must be two numbers separated by a single space, and highest number is first.
     */
-    public static bool AutoTest()
-    {
-        return HighAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4") == "42 -9";
-    }
     
     public static string HighAndLow(string numbers)
     {
