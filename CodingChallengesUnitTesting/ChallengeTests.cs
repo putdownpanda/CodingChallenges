@@ -194,13 +194,27 @@ public class ChallengeTests
     [Fact]
     public void TestGetHEXFromRGB()
     {
-        RGBToHEXConversion convert = new RGBToHEXConversion();
-        /*Assert.Equal("#FF0000", convert.GetHEXFromRGB(255, 0, 0));
-        Assert.Equal("#00FF00", convert.GetHEXFromRGB(0, 255, 0));
-        Assert.Equal("#0000FF", convert.GetHEXFromRGB(0, 0, 255));
-        Assert.Equal("#000000", convert.GetHEXFromRGB(0, 0, 0));
-        Assert.Equal("#FFFFFF", convert.GetHEXFromRGB(255, 255, 255));
-        Assert.Equal("#FF0000", convert.GetHEXFromRGB(255, 0, -1));*/
-        Assert.Equal("#9400D3", convert.GetHEXFromRGB(148, 0, 211));
+        Assert.Equal("#FF0000", RGBToHEXConversion.GetHEXFromRGB(255, 0, 0));
+        Assert.Equal("#00FF00", RGBToHEXConversion.GetHEXFromRGB(0, 255, 0));
+        Assert.Equal("#0000FF", RGBToHEXConversion.GetHEXFromRGB(0, 0, 255));
+        Assert.Equal("#000000", RGBToHEXConversion.GetHEXFromRGB(0, 0, 0));
+        Assert.Equal("#FFFFFF", RGBToHEXConversion.GetHEXFromRGB(255, 255, 255));
+        Assert.Equal("#FF0000", RGBToHEXConversion.GetHEXFromRGB(255, 0, -1));
+        Assert.Equal("#9400D3", RGBToHEXConversion.GetHEXFromRGB(148, 0, 211));
+    }
+
+    [Fact]
+    public void TribonacciSequence()
+    {
+        TribonacciSequence tribonacci = new TribonacciSequence();
+        Assert.Equal(new double[] { 1, 1, 1, 3, 5, 9, 17, 31 }, tribonacci.Tribonacci(new double[] { 1, 1, 1 }, 8));
+        Assert.Equal(new double[] { 0, 0, 1, 1, 2, 4, 7, 13, 24 }, tribonacci.Tribonacci(new double[] { 0, 0, 1 }, 9));
+        Assert.Equal(new double[] { 0, 1, 1, 2, 4, 7, 13, 24, 44, 81 }, tribonacci.Tribonacci(new double[] { 0, 1, 1 }, 10));
+        Assert.Equal(new double[] { 1, 0, 0, 1, 1, 2, 4, 7, 13, 24 }, tribonacci.Tribonacci(new double[] { 1, 0, 0 }, 10));
+        Assert.Equal(new double[] { 0, 0, 0 }, tribonacci.Tribonacci(new double[] { 0, 0, 0 }, 3));
+        Assert.Equal(new double[] { 1, 2, 3 }, tribonacci.Tribonacci(new double[] { 1, 2, 3 }, 3));
+        Assert.Equal(new double[] { 1, 1, 1, 3, 5, 9, 17, 31, 57, 105 }, tribonacci.Tribonacci(new double[] {1, 1, 1 }, 10));
+        Assert.Equal(new double[] { 0, 0, 1, 1, 2, 4, 7, 13, 24, 44 }, tribonacci.Tribonacci(new double[] { 0, 0, 1 }, 10));
+        Assert.Equal(new double[] { 0, 1, 1, 2, 4, 7, 13, 24, 44, 81 }, tribonacci.Tribonacci(new double[] { 0, 1, 1 }, 10));
     }
 }
