@@ -217,4 +217,12 @@ public class ChallengeTests
         Assert.Equal(new double[] { 0, 0, 1, 1, 2, 4, 7, 13, 24, 44 }, tribonacci.Tribonacci(new double[] { 0, 0, 1 }, 10));
         Assert.Equal(new double[] { 0, 1, 1, 2, 4, 7, 13, 24, 44, 81 }, tribonacci.Tribonacci(new double[] { 0, 1, 1 }, 10));
     }
+
+    [Fact]
+    public void TrailingZeroes()
+    {
+        Assert.Equal(1, HowManyTrailingZeros.TrailingZeros(5));
+        Assert.Equal(6, HowManyTrailingZeros.TrailingZeros(25));
+        Assert.Equal(131, HowManyTrailingZeros.TrailingZeros(531));
+    }
 }
