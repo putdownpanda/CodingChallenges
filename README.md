@@ -17,7 +17,7 @@ A collection of **Codewars-style coding challenges** completed in C#, showcasing
 
 ## Overview
 
-This repository contains a series of programming challenges implemented in C#. Each entry reflects a unique coding problem—likely inspired by or from **Codewars**—that highlights algorithmic thinking and clean implementation style.:contentReference[oaicite:1]{index=1}
+This repository contains a series of programming challenges implemented in C#. Each entry reflects a unique coding problem—likely inspired by or from **Codewars**—that highlights algorithmic thinking and clean implementation style.
 
 ---
 
@@ -25,7 +25,7 @@ This repository contains a series of programming challenges implemented in C#. E
 
 - **Diverse problem coverage** — includes algorithmic and logical puzzles with varying complexity.
 - **Test-driven development (TDD)** — each solution is accompanied by robust unit tests (e.g., `CodingChallengesTests`).
-- **C# (.NET)** stack—showcases proficiency in core .NET tooling and best practices.:contentReference[oaicite:2]{index=2}
+- **C# (.NET)** stack—showcases proficiency in core .NET tooling and best practices.
 
 ---
 
@@ -34,7 +34,7 @@ This repository contains a series of programming challenges implemented in C#. E
 The project is structured to emphasize clarity, testing, and maintainability:
 
 - **Solution project (`CodingChallenges`)** — contains the implementation of challenge solutions.
-- **Test project (`CodingChallengesTests` or similar)** — includes unit tests for each challenge—great for verifying correctness and debugging.:contentReference[oaicite:3]{index=3}
+- **Test project (`CodingChallengesTests` or similar)** — includes unit tests for each challenge—great for verifying correctness and debugging.
 - Likely follows conventions such as one class per challenge and descriptive method names to keep things readable and modular.
 
 ---
@@ -64,8 +64,3 @@ The project is structured to emphasize clarity, testing, and maintainability:
     dotnet test
     ```
    This will build and execute all unit tests to ensure your challenge solutions are passing.
-
----
-
-Feel free to tweak or expand any section—especially the **Architecture & Approach** section once you have more context on the internal structure. Let me know if you'd like menus, examples, or a walkthrough for any specific challenge!
-::contentReference[oaicite:4]{index=4}
